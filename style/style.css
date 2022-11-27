@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 300vh;
+    background-color: #c1c1c1;
+}
+.figure {
+    display: flex;
+    justify-content: space-around;
+}
+.figure__box {
+    margin-top: 1rem;
+    background-color: #181414;
+    border-radius: 200px 150px 10px 80px;
+    box-shadow: 2px 2px 10px #000000;
+    overflow: hidden;
+    flex: 0 1 300px;
+}
+.figure__img {
+    height: 75%;    
+    width: 100%;
+    margin: auto;
+    display: block;
+    object-fit: cover;
+    opacity: .6;
+}
+.figure__figcaption {
+    color: #ffffff;
+    text-shadow: 0 0 1px #c1c1c1;
+    text-transform: uppercase;
+    text-align: center;
+    height: 20%;
+    margin-top: .1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+/* logo contacto */
+.contact {
+
+}
+.contact__logo {
+    height: 4rem;
+    position: fixed;
+    right: 1rem;
+    bottom: 2rem;
+    opacity: .5;
+    transition: .3s;
+}
+.contact__logo:hover {
+    opacity: 1;
+    transform: scale(1.2);
+}
